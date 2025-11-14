@@ -7,7 +7,7 @@ spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 
 # Gunakan ini untuk memperbarui skema database sesuai entitas
-spring.jpa.hibernate.ddl-auto=create
+spring.jpa.hibernate.ddl-auto=create 
 
 # Gunakan ini untuk membuat ulang skema database setiap kali aplikasi dijalankan
 # spring.jpa.hibernate.ddl-auto=create 
@@ -22,7 +22,7 @@ spring.devtools.livereload.enabled=true
 spring.devtools.livereload.port=35729
 
 # Exclude paths that don't need restart
-spring.devtools.restart.exclude=static/**,public/**,templates/**
+spring.devtools.restart.exclude=static/,public/,templates/**
 
 # Logging Level
 spring.main.banner-mode=console
@@ -33,3 +33,4 @@ logging.level.org.delcom=DEBUG
 
 # Format log dengan warna
 spring.output.ansi.enabled=ALWAYS
+
