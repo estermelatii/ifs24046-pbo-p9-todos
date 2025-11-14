@@ -168,12 +168,12 @@
 								<limit>
 									<counter>INSTRUCTION</counter>
 									<value>COVEREDRATIO</value>
-									<minimum>0.9</minimum> <!-- 85% instruction coverage -->
+									<minimum>0.85</minimum> <!-- 85% instruction coverage -->
 								</limit>
 								<limit>
 									<counter>BRANCH</counter>
 									<value>COVEREDRATIO</value>
-									<minimum>0.9</minimum> <!-- 80% branch coverage -->
+									<minimum>0.80</minimum> <!-- 80% branch coverage -->
 								</limit>
 							</limits>
 						</rule>
