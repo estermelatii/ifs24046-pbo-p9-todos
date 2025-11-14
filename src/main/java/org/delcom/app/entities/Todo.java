@@ -1,4 +1,3 @@
-
 package org.delcom.app.entities;
 
 import jakarta.persistence.*;
