@@ -78,7 +78,7 @@ jobs:
           sleep 10
           pkill -f 'java -jar' || true
 
-      # 🔹 Upload hasil build (opsional)
+      # 🔹 Upload hasil build (opsional) --
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
         with:
