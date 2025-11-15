@@ -1,3 +1,4 @@
+
 package org.delcom.app.entities;
 
 import java.util.UUID;

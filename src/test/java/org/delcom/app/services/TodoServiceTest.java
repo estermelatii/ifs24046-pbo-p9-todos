@@ -1,4 +1,3 @@
-
 package org.delcom.app.services;
 
 import static org.mockito.ArgumentMatchers.any;
@@ -118,4 +117,5 @@ public class TodoServiceTest {
             assert (deleted == false);
         }
     }
+ 
 }
